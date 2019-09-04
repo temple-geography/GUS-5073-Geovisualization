@@ -12,5 +12,10 @@ The introduction of the course and syllabus
 
 3. Basics of Python programing
 
-4. Create a simple graph using Python
 
+## Week 4. Creating Basic graphics and create maps with different projections
+
+
+1. Create a simple graph using Python
+
+2. Create Maps with different projections
