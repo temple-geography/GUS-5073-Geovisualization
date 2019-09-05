@@ -8,9 +8,9 @@ The introduction of the course and syllabus
 
 1. Install Anaconda ([Link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/AnacondaConfig.pdf)) 
 
-2. Be familar with Jupyter Notebook ([link])(https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/Notebook-tutorial.md)
+2. Be familar with Jupyter Notebook ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/Notebook-tutorial.md))
 
-3. Basics of Python programing ([Link]) (http://localhost:8888/notebooks/lecture2-catography-nutshell_1/PythonBasic.ipynb)
+3. Basics of Python programing ([Link] (http://localhost:8888/notebooks/lecture2-catography-nutshell_1/PythonBasic.ipynb))
 
 
 ## Week 4. Creating Basic graphics and create maps with different projections
