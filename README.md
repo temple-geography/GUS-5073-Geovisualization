@@ -8,7 +8,7 @@ The introduction of the course and syllabus
 
 1. Install Anaconda ([Link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/AnacondaConfig.pdf)) 
 
-2. Be familar with Jupyter Notebook
+2. Be familar with Jupyter Notebook [link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/Notebook-tutorial.md)
 
 3. Basics of Python programing
 
