@@ -6,7 +6,7 @@ The introduction of the course and syllabus
 
 ## Week 3. Configure the environment of anaconda environment for Python
 
-1. Install Anaconda 
+1. Install Anaconda ([Link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/AnacondaConfig.pdf)) 
 
 2. Be familar with Jupyter Notebook
 
