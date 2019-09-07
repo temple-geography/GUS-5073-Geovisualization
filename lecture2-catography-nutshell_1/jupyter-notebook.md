@@ -22,4 +22,4 @@ run the current cell and move the next cell, press `shift + enter`
 #### Reference
 1. Jupyter notebook for beginners, https://realpython.com/jupyter-notebook-introduction/
 2. Notebook Basics, https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html
-
+3. 28 Jupyter Notebook Tips, Tricks, and Shortcuts, https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/
