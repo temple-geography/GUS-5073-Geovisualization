@@ -23,3 +23,4 @@ The introduction of the course and syllabus
 ## Week 5. Mapping point maps 
 1. Read shapefile, do explorative analysis of traffic accidents in Philadelphia ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
 2. Create point maps of traffic accidents in different years ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
+
