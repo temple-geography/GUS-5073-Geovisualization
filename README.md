@@ -16,6 +16,6 @@ The introduction of the course and syllabus
 ## Week 4. Creating Basic graphics and create maps with different projections
 
 
-1. Create a simple graph using Python
+1. Create a simple graph and first geoviz using Python ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture3-catography-nutshell_2/Projections-manipulation.ipynb))
 
-2. Create Maps with different projections
+2. Create Maps with different projections ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture3-catography-nutshell_2/Projections-manipulation.ipynb))
