@@ -20,9 +20,9 @@ The introduction of the course and syllabus
 
 2. Create Maps with different projections ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture3-catography-nutshell_2/Projections-manipulation.ipynb))
 
-## Week 5. Mapping point maps 
-1. Read shapefile, do explorative analysis of traffic accidents in Philadelphia ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
-2. Create point maps of traffic accidents in different years ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
+## Week 5. Mapping point maps ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
+1. Read shapefile, do explorative analysis of traffic accidents in Philadelphia
+2. Create point maps of traffic accidents in different years 
 
 ## Week 6. Data classification, choropleth, Mapping and dasymetric Mapping ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture5-choropleth/ChoroplethMaps-class.ipynb))
 1. Create choropleth map using Geopandas
