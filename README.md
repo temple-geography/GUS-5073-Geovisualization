@@ -24,3 +24,8 @@ The introduction of the course and syllabus
 1. Read shapefile, do explorative analysis of traffic accidents in Philadelphia ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
 2. Create point maps of traffic accidents in different years ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
 
+## Week 6. Data classification, choropleth, Mapping and dasymetric Mapping ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture5-choropleth/ChoroplethMaps-class.ipynb))
+1. Create choropleth map using Geopandas
+2. Select different color bars
+3. Using different classification schemes
+4. Deal with Null data in the choropleth Mapping.
