@@ -29,3 +29,9 @@ The introduction of the course and syllabus
 2. Select different color bars
 3. Using different classification schemes
 4. Deal with Null data in the choropleth Mapping.
+
+## Week 7. Colors, create dynamic maps using folium ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture6-Colors-dynamicViz/dynamicViz.ipynb))
+1. Using folium to create a dynamic leaflet style map
+2. Add markers to map using folium
+3. Add line to map using folium
+4. Create choropleth map
