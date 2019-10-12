@@ -36,7 +36,7 @@ The introduction of the course and syllabus
 3. Add line to map using folium
 4. Create choropleth map
 
-## Week 8. Designing Beautiful Maps – Effective Map Design and Layout ([link](https://github.com/ericmhuntley/big-data-spring2018/edit/master/week-08/08_intro-to-d3.md))
+## Week 8. Designing Beautiful Maps – Effective Map Design and Layout ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture7%20-%20Leaflet/tutorial.md))
 1. Write html/css/JavaScript in Sublime
 2. Create Map using Leaflet.js
 3. Add marker, line, polygon to map
