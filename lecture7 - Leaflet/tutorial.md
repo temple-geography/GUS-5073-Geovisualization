@@ -159,6 +159,9 @@ $.getJSON("blood_lead.geojson",function(data){
 });
 ```
 
+**If you have difficulty in reading the geojson file**, you can run a localhost to serve your webpage. You can simplely typein `python -m http.server` in your Anaconda prompt, and then open your web browser and typein `localhost:8000`. Make sure your geojson file in the same directory with your `html` file
+
+
 ## Homework
 The homework for this week is to redo the homework of last week using HTML/CSS/JavaScript
  - Add markers of cutting points of your routes
