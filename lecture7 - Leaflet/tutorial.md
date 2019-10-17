@@ -1,5 +1,5 @@
 # Week 8. Introduction of Javascripts/HTML/CSS
-This week we are going to first use Javascripts/HTML/CSS tow write our first web-based geovisualization. You will know how to add marker, line, and polygon on map instance using Lealet.js. 
+This week we are going to first use Javascripts/HTML/CSS to write our first web-based geovisualization. You will know how to add marker, line, and polygon on map instance using Lealet.js. 
 
 ### HTML/CSS/JavaScript
 
@@ -82,6 +82,8 @@ map.doubleClickZoom.disable(); // disable the double click to zoom in
 </body>
 </html>
 ```
+
+**Note** there are many types of tiles, you can select other types of tiles as your basemap. Here is the ([link](https://leaflet-extras.github.io/leaflet-providers/preview/)). What you need to do is to just copy the link of your favorite tile and replace the "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" in second line of the script division. 
 
 Let's then open your `.html` file to see what you get. 
 
