@@ -41,3 +41,10 @@ The introduction of the course and syllabus
 2. Create Map using Leaflet.js
 3. Add marker, line, polygon to map
 4. Read `geojson` file and map it
+
+## Week 9. Web Mapping, Creating interactive choropleth map ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture8-Leaflet%20choropleth%20map/lecture8-leafleatChoroplethMapping.md))
+1. Load GeoJson file in Leaflet
+2. Create choropleth map based on the GeoJson file
+3. Create interaction for each feature in the GeoJson file
+4. Add Legend for the map
+5. Add other map elements, scale, data sources, map title, etc.
