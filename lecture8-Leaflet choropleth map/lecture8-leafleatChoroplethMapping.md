@@ -38,7 +38,7 @@ Last week we talked about creating markers, lines, polygons to the map instance 
         var myDataPoint = L.marker([39.981192, -75.155399]).addTo(map);
         myDataPoint.bindPopup("This is Temple University.");
         myDataPoint.bindPopup("<h3>Temple University</h3><p>Philadelphia, PA<br>Information about Temple University.</p>");
-
+        
         // create a polyline
         var myDataLine = L.polyline([[40.080922, -75.207875], 
                                     [40.077375, -75.201967],
@@ -78,7 +78,7 @@ Last week we talked about creating markers, lines, polygons to the map instance 
                 .setContent("You clicked the map at " + e.latlng.toString())
                 .openOn(map);
         }
-
+        
         // Listen for a click event on the Map element
         map.on('click', onMapClick);
 
@@ -258,13 +258,11 @@ This part is just for good practice. You current code can create the interactive
 You can just create new folders of JS, CSS, or even folders for other documents in your directory. And then you can cut your JavaScript code, which is between your two `script` div, and paste, save it as a new JavaScript code. Then you use  `<script src="JS/your_js_name.js"></script>` to replace your `script` div. 
 
 
-## Homework
+## Homework 
 1. Finish the tutorial and create a interactive and dynamic geoviz. 
 
 2. Using a the field of "num_bll_5p", different color scheme, and different scale of legend
 
 3. Upload your `.html` file to the Canvas. 
-
-
 
 
