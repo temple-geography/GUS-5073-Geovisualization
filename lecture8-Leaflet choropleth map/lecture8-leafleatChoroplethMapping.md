@@ -22,6 +22,9 @@ Last week we talked about creating markers, lines, polygons to the map instance 
     <meta charset="utf-8">
     <title>Leaflet Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
+    <style>
+        
+    </style>
 </head>
 <body>
     <!-- Our web map and content will go here -->
