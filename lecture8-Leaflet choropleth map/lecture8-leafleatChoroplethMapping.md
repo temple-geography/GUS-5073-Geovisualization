@@ -23,7 +23,7 @@ Last week we talked about creating markers, lines, polygons to the map instance 
     <title>Leaflet Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
     <style>
-        
+
     </style>
 </head>
 <body>
@@ -97,6 +97,25 @@ Last week we talked about creating markers, lines, polygons to the map instance 
 </html>
 ```
 We just load the GeoJson file using the function of `$.getJSON`. We actually just load the file and don't have any operation yet. So, let assign each census tract to a different color first. 
+
+
+**Add css statement** to your division between `style`,
+
+```css
+    html { height:100%;}
+    body {
+        height:100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #map {
+        width: 100%;
+        margin: 0 auto;
+        height: 95%;
+    }
+```
+
 
 #### Assign different colors to different census tracts based on their data
 
