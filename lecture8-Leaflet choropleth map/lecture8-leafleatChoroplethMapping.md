@@ -23,6 +23,21 @@ Last week we talked about creating markers, lines, polygons to the map instance 
     <title>Leaflet Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
     <style>
+        html { height:100%;}
+        body {
+            height:100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map {
+            width: 100%;
+            margin: 0 auto;
+            height: 95%;
+        }
+
+
+
 
     </style>
 </head>
@@ -86,7 +101,7 @@ Last week we talked about creating markers, lines, polygons to the map instance 
         map.on('click', onMapClick);
 
         // load GeoJSON from an external file
-        $.getJSON("blood_lead.geojson",function(data){
+        $.getJSON("data/blood_lead.geojson",function(data){
             // add GeoJSON layer to the map once the file is loaded
             L.geoJson(data, {
                 
@@ -96,10 +111,14 @@ Last week we talked about creating markers, lines, polygons to the map instance 
 </body>
 </html>
 ```
+**Note**
+In the code above, we actually load a geojson file and plot the polygons of each census tract to the map. If you just use your web browser to open the file, you are NOT going to load the geojson file. You can right click your web page and click `inspect`, there will be a error says that "you cannot load the geojson file". We talked about that last week, you need to use `localhost` to open it. So, just go back to your Anaconda Prompt and then activate your virtual environment, type "python -m http.server". You can then type "localhost:8000" in your web browser and find your `.html` file and open it. Make sure your have the "data" folder that includes `geojson` in the same directory with your `.html` file. 
+
+
 We just load the GeoJson file using the function of `$.getJSON`. We actually just load the file and don't have any operation yet. So, let assign each census tract to a different color first. 
 
 
-**Add css statement** to your division between `style`,
+**Add css statement** to your division between `style` marks,
 
 ```css
     html { height:100%;}
@@ -131,7 +150,6 @@ $.getJSON("data/blood_lead.geojson",function(data){
         }
     }).addTo(map);
 });
-
 ```
 
 We need further to define the function of styleFunc. Put the following statement behind your above `$.getJSON` function. This function will return different colors based on the `perc_5plus` to fill each census tract. 
@@ -274,7 +292,62 @@ If you read carefully of the above statement, you may realize we actually using 
 After you done this, you are technically done for this tutorial. Please just refresh your webpage, then you will send a dynamic and interactive online geovisualization. 
 
 
-### 6. Organize your JavaScript code and CSS code
+### 6. Add `css` code for your legend
+If you refresh your webpage, then you may realize your legend has no color bar. We need further add `css` code for styling the legend. Copy the following statement to your css session (between `<style> </style>`), 
+```css
+.info {
+    z-index: 1000;
+    position: absolute;
+    right: 40%;
+    top: 5%;
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.info h1 {
+    font-size: 16px;
+    margin: 0 0 5px;
+    color: #777777;
+}
+
+
+.legend {
+    line-height: 18px;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.legend i {
+    width: 28px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+
+.legend p {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}
+
+```
+
+Then refresh your webpage.
+
+
+### 7. Organize your JavaScript code and CSS code
 This part is just for good practice. You current code can create the interactive geovisualization as you want. However, if you go over your whole code one more time, you may see, you code is mixed with HTML, JavaScript, or CSS code. Just think about if you write a much more complicated webpage or website, it is probably not a good idea to put all of these in one document. So, a good practice is to seperate your JavaScript, HTML, CSS code into different documents. 
 
 You can just create new folders of JS, CSS, or even folders for other documents in your directory. And then you can cut your JavaScript code, which is between your two `script` div, and paste, save it as a new JavaScript code. Then you use  `<script src="JS/your_js_name.js"></script>` to replace your `script` div. 
