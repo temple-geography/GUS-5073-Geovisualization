@@ -54,3 +54,10 @@ Continue of the lab part for lecture 8
 1. Register an Github page
 2. Install Git and Github desktop (for Windows user)
 3. Create Repository and understand `clone`, `fork`
+
+## Lecture 10. Web Geoviz hosting on Github (II) ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture10-Host-webpage-2/tutorial.md))
+
+1. Navigation using Git bash
+2. Clone, Add, commit using command line
+3. Synchronize files between local computer and Github repository
+4. Check your Web Geoviz on Github page.
