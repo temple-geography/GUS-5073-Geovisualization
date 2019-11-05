@@ -54,6 +54,10 @@ git clone https://github.com/xiaojianggis/geoviz.git
 ```
 Then you will have a folder of `geoviz` in your directory. We are going to upload it to github. 
 
+-------------------------------------------
+If you want to upload your own web page on Github, you don't need to git clone anything, just `cd` to your folder of the code. **MAKE SURE** your html file is named as `index.html`, or you will not see your webpage. 
+
+
 ### 4. Synchronize with your github repository
 change your directory to the new created folder of `geoviz`.
 ```
@@ -97,4 +101,13 @@ git push origin gh-pages
 
 ### 8. Now your project is up on GitHub.  
 In a web browser log into your GitHub account and view the project in the gh-pages branch.  You can also view the web site using your http://<GitHub handle>.github.io/repository name.  My final website can be viewed at https://xiaojianggis.github.io/geoviztest/
+
+Make sure you replace the `xiaojianggis` by your own user name, and `geoviztest` by your own repository name. 
+
+
+
+
+## Reference:
+MIT DUSP Geoviz, https://github.com/civic-data-design-lab/16_11.S947/blob/master/week1/Part1_IntroGitAndGithub.ipynb
+Web hosting on Github, https://gis.ucar.edu/github-web-hosting
 
