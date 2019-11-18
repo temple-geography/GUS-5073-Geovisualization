@@ -61,3 +61,8 @@ Continue of the lab part for lecture 8
 2. Clone, Add, commit using command line
 3. Synchronize files between local computer and Github repository
 4. Check your Web Geoviz on Github page.
+
+## Lecture 11. Explorative Analysis
+1. Calculate the statistics of your data
+2. Plot histogram, boxplot, scatter plot.
+3. Calculate correlation, spatial autocorrelation.
