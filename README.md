@@ -62,7 +62,7 @@ Continue of the lab part for lecture 8
 3. Synchronize files between local computer and Github repository
 4. Check your Web Geoviz on Github page.
 
-## Lecture 11. Explorative Analysis
+## Lecture 11. Explorative Analysis ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture11-visual-analytics/ExploratoryAnalytics-class.ipynb))
 1. Calculate the statistics of your data
 2. Plot histogram, boxplot, scatter plot.
 3. Calculate correlation, spatial autocorrelation.
