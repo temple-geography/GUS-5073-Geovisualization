@@ -106,7 +106,7 @@ git push origin gh-pages
 ```
 
 ### 8. Now your project is up on GitHub.  
-In a web browser log into your GitHub account and view the project in the gh-pages branch.  You can also view the web site using your http://<GitHub handle>.github.io/repository name.  My final website can be viewed at https://xiaojianggis.github.io/geoviztest/
+In a web browser log into your GitHub account and view the project in the gh-pages branch.  You can also view the web site using your http://<GitHub handle>.github.io/repository name.  My final website can be viewed at https://xiaojianggis.github.io/geoviz/
 
 Make sure you replace the `xiaojianggis` by your own user name, and `geoviztest` by your own repository name. 
 
