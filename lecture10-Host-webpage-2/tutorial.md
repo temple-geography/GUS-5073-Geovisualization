@@ -3,6 +3,8 @@ In this tutorial, we are going to publish our developed geoviz on Github. In pre
 **For Mac**, type in `git --version` in your terminal and see if your get the git installed
 **For Windows**, open your `Git` bash, and type in `git --version`. 
 
+**All the folowing commands will be run in Git Bash, NOT Anaconda**
+
 If we have the github account registered and `git` bash configured successfully, let get started and publish our geoviz online. 
 
 ### 1. Create a repository
