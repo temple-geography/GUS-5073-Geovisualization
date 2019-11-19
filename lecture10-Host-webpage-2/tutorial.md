@@ -13,7 +13,7 @@ ii. In the upper right corner, select ‘New’.
 Create a new repository.
 
 iii. In the Create a new repository window, set up your repository.
-Name the repository ‘username.github.io’, and replace username with your Github username. Give the repository a description, make it public, and initialize it with a README. Don’t worry about the license at this point.
+Name the repository ‘username.github.io’, and replace username with your Github username. Give the repository a description, make it public. **Don't initialize it with a README.**
 
 iv. Click Create.
 You now have an empty repository set up in which you can add files and set up a project.
