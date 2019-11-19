@@ -78,7 +78,10 @@ You need to replace the last paramter by the link of your repository.
 ```
 git remote -v
 git remote rm origin
+git remote add origin https://github.com/xiaojianggis/geoviztest.git
+
 ```
+
 
 ### 5. Check out with a branch
 Now you need to create a branch called gh-pages from GitHub and switch to this branch. Type in,
