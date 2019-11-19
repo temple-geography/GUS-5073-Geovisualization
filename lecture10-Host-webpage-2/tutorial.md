@@ -58,11 +58,14 @@ git clone https://github.com/xiaojianggis/geoviz.git
 Then you will have a folder of `geoviz` in your directory. We are going to upload it to github. 
 
 -------------------------------------------
-If you want to upload your own web page on Github, you don't need to git clone anything, just `cd` to your folder of the code. **MAKE SURE** your html file is named as `index.html`, or you will not see your webpage. 
+If you want to upload your own web page to Github, you don't need to git clone anything, just `cd` to your folder of the code. **MAKE SURE** your html file is named as `index.html`, or you will not see your webpage.
+
+
+**In your homewok, you need to start from here, forget about git clone**
 
 
 ### 4. Synchronize with your github repository
-change your directory to the new created folder of `geoviz`.
+change your directory to the new created folder of `geoviz`. **In your homework, you need to change your directory to your code of the website**
 ```
 cd geoviz
 ```
