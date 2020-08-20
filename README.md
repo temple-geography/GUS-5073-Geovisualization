@@ -9,7 +9,7 @@
 3. Basics of Python programing ([Link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/PythonBasic.ipynb))
 
 
-## Lab2. Creating Basic graphics and create maps with different projections
+## Lab 2. Creating Basic graphics and create maps with different projections
 
 
 1. Create a simple graph and first geoviz using Python ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture3-catography-nutshell_2/Projections-manipulation.ipynb))
@@ -32,7 +32,7 @@
 3. Add line to map using folium
 4. Create choropleth map
 
-## Lab 6. Designing Beautiful Maps, Introduction of Leaflet.js ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture7%20-%20Leaflet/tutorial.md))
+## Lab 6. Designing dynamic and interactive maps using Leaflet.js ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture7%20-%20Leaflet/tutorial.md))
 1. Write html/css/JavaScript in Sublime
 2. Create Map using Leaflet.js
 3. Add marker, line, polygon to map
