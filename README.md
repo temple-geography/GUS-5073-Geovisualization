@@ -1,8 +1,7 @@
 # GUS-5073-Geovisualization
 ## Lecture 1. The introduction of Geovisualization
-Introduction of myself, 
-My background and research
-The introduction of the course and syllabus
+1. My background and research
+2. The introduction of the course and syllabus
 
 ## Lecture 2. Configure the environment of anaconda environment for Python
 
