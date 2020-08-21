@@ -3,15 +3,14 @@ Python is an increasingly popular high-level programming language. It emphasizes
 
 The Anaconda makes configuring Python programing environment super easy. The Anaconda is cross-platform and it is very easy to install different libraries in the virtual environment. The following tutorial will walk you through the tutorial for installing Anaconda and required Python modules.
 
-##1. Install Anaconda
+## 1. Install Anaconda
 Go to the [website](https://www.anaconda.com/products/individual) to download Anaconda for different OSs. 
 ![](images/download-anaconda.png)
 Select the right Anaconda for your computer. In this tutorial, we are going to use Python 3.8. 
 ![](images/anaconda-downloaders.png)
 
-Locate
 
-##2.The command mode shortcuts
+## 2.The command mode shortcuts
 (1) go to the next line, press `enter` button
 run the current cell and move the next cell, press `shift + enter`
 
