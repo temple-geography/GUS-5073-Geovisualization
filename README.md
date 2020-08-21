@@ -2,11 +2,11 @@
 
 ## Lab 1. Configure the environment of anaconda environment for Python
 
-1. Install Anaconda ([Link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/AnacondaConfig.pdf)) 
+1. Install Anaconda ([Link](Lab1-Configure-environment/install-anaconda.md)) 
 
-2. Be familar with Jupyter Notebook ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/Notebook-tutorial.md))
+2. Be familar with Jupyter Notebook ([link](Lab1-Configure-environment/jupyter-notebook.md))
 
-3. Basics of Python programing ([Link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/PythonBasic.ipynb))
+3. Basics of Python programing ([Link](Lab1-Configure-environment/PythonBasic.ipynb))
 
 
 ## Lab 2. Creating Basic graphics and create maps with different projections
