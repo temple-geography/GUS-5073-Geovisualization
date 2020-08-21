@@ -5,9 +5,9 @@ The Anaconda makes configuring Python programing environment super easy. The Ana
 
 ##1. Install Anaconda
 Go to the [website](https://www.anaconda.com/products/individual) to download Anaconda for different OSs. 
-![](images/download-anaconda.png)
+![](images/download-anaconda.png =250x)
 Select the right Anaconda for your computer. In this tutorial, we are going to use Python 3.8. 
-![](images/anaconda-downloaders.png)
+![](images/anaconda-downloaders.png =250x)
 
 Locate
 
