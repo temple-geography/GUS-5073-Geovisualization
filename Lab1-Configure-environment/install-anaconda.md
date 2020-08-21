@@ -10,9 +10,13 @@ The Anaconda makes configuring Python programing environment super easy. The Ana
 	title="A cute kitten" height="300" />
 
 Select the right Anaconda for your computer. In this tutorial, we are going to use Python 3.8. 
-![](images/anaconda-downloaders.png)
+<img src="images/anaconda-downloaders.png" alt="Kitten"
+	title="A cute kitten" height="300" />
+
 2. **Locate you installer and install**. Locate you downloaded Anaconda installer and then double click it to install. For Windows and MacOS, the installing is the same, just keep following the instructions by default.
-![](images/anaconda-downloaders.png)
+<img src="images/anaconda-downloaders.png" alt="Kitten"
+	title="A cute kitten" height="300" />
+
 3. **Check your installation**. When you installation is done, you can then check if you have the Anaconda installed successfully. For Windows, . For Mac, 
 
 
