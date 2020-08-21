@@ -4,25 +4,38 @@ Python is an increasingly popular high-level programming language. It emphasizes
 The Anaconda makes configuring Python programing environment super easy. The Anaconda is cross-platform and it is very easy to install different libraries in the virtual environment. The following tutorial will walk you through the tutorial for installing Anaconda and required Python modules.
 
 ## 1. Install Anaconda
-Go to the [website](https://www.anaconda.com/products/individual) to download Anaconda for different OSs. 
+1. **Download the Anaconda**. Go to the [website](https://www.anaconda.com/products/individual) to download Anaconda for different OSs. 
 ![](images/download-anaconda.png)
 Select the right Anaconda for your computer. In this tutorial, we are going to use Python 3.8. 
 ![](images/anaconda-downloaders.png)
+2. **Locate you installer and install**. Locate you downloaded Anaconda installer and then double click it to install. For Windows and MacOS, the installing is the same, just keep following the instructions by default.
+![](images/anaconda-downloaders.png)
+3. **Check your installation**. When you installation is done, you can then check if you have the Anaconda installed successfully. For Windows, . For Mac, 
 
 
-## 2.The command mode shortcuts
-(1) go to the next line, press `enter` button
-run the current cell and move the next cell, press `shift + enter`
+## 2.Be familiar with Anaconda
+When you have the Anaconda installed successfully, then you can open your Anaconda terminal (command line) and create virtual environment for Python programming. 
 
-(2) save the notebook, press `s`
+1. Open the Anaconda. For Windows, open the `Anaconda Prompt` ![](images/prompt.png).  ![](images/win-terminal.png) For Mac, go to ther `terminal`, ![](images/mac-terminal.png)
+2. Type in `conda info -e` in your terminal, you should see the `base` environment. The `base` is the default Python environment. We usually don't install Python modules in the `base`. 
+3. Create a customized virutal environment called `geoviz`, `conda create -n geoviz python=3.8`. You can use other names as you like. Let
+4. Install the required modules. Before you get started to install Python modules, we need to first activate the virtual environment we just created. Just type in `conda activate geoviz` in the terminal.
+	- install `geopandas`, type in `conda install geopandas` in the terminal.
+	- Install `jupyterlab`, type in `conda install jupyterlab` in the terminal.
 
-(3) change cell type, `y`, `m`, You can switch between edit mode and command mode by press `y` or `m` button
 
-(4) create cell above `a` and below `b`
+> It is pretty straightforward to install the modules you need in Anaconda. In most cases just type in `conda install name_module`.
 
-(5) cell editing, cut cell press `x`, copy cell press `c`, paste cell press `v`, delete cell press `dd`, cancel previous step press `zz`
 
-(6) Kernel operation, Restart the jupyter server by pressing `0` twice; Interrupt the running cell by pressing `i` twice.
+## 3. Start Jupyter Notebook and write Python code
+Now we have the required environment ready. Let's start the `Jupyter Notebook` and then write your Python code. 
+
+1. Go to your terminal. Make sure the `geoviz` is activated. **Note**: If you still see the `base`, you need to activate it first by typing `conda activate geoviz` in the terminal. If you want to go back to base, you can also deactivate it, `conda deactivate`. In this way, you can swich between different virtual environment, which can be created for different purposes. 
+
+2. Start the Jupyter Notebook by typing `jupyter notebook` in the terminal. Then you web browser will start automatically and guide you to the notebook. You can then write Python code over there. 
+
+## What Next
+Go to open the test Jupyter Notebook file, [Link](PythonBasic.ipynb). You can open the `ipynb` file directly or copy the statment to you newly created notebook. 
 
 #### Reference
 1. Jupyter notebook for beginners, https://realpython.com/jupyter-notebook-introduction/
