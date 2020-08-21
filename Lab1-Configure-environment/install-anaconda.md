@@ -17,7 +17,6 @@ Select the right Anaconda for your computer. In this tutorial, we are going to u
 When you have the Anaconda installed successfully, then you can open your Anaconda terminal (command line) and create virtual environment for Python programming. 
 
 1. Open the Anaconda. For Windows, open the `Anaconda Prompt` 
-<img src="images/wind-install.png" title="A cute kitten" height="300" />.  
 <img src="images/win-terminal.png" title="A cute kitten" height="300" />. 
 
 For Mac, go to the `terminal`, 
