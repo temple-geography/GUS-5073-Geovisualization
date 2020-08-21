@@ -4,11 +4,13 @@ Python is an increasingly popular high-level programming language. It emphasizes
 The Anaconda makes configuring Python programing environment super easy. The Anaconda is cross-platform and it is very easy to install different libraries in the virtual environment. The following tutorial will walk you through the tutorial for installing Anaconda and required Python modules.
 
 ## 1. Install Anaconda
-1. **Download the Anaconda**. Go to the [website](https://www.anaconda.com/products/individual) to download Anaconda for different OSs. <img src="images/download-anaconda.png" title="A cute kitten" height="300" />. Select the right Anaconda for your computer. In this tutorial, we are going to use Python 3.8. <img src="images/anaconda-downloaders.png" title="A cute kitten" height="300" />
+1. **Download the Anaconda**. Go to the [website](https://www.anaconda.com/products/individual) to download Anaconda for different OSs. <img src="images/download-anaconda.png" title="A cute kitten" height="300" /> 
 
-2. **Locate you installer and install**. Locate you downloaded Anaconda installer and then double click it to install. For Windows and MacOS, the installing is the same, just keep following the instructions by default.<img src="images/anaconda-downloaders.png" title="A cute kitten" height="300" />
+Select the right Anaconda for your computer. In this tutorial, we are going to use Python 3.8. <img src="images/anaconda-downloaders.png" height="300" />
 
-3. **Check your installation**. When you installation is done, you can then check if you have the Anaconda installed successfully. For Windows, . For Mac, 
+2. **Locate you installer and install**. Locate you downloaded Anaconda installer and then double click it to install. For Windows and MacOS, the installing is the same, just keep following the instructions by default.<img src="images/wind-install.png" title="A cute kitten" height="300" />
+
+3. **Check your installation**. When you installation is done, you can then check if you have the Anaconda installed successfully. For Windows, press windows button and see if you have `Anaconda Prompt`. For Mac, go to your terminal and type in `conda`. 
 
 
 ## 2.Be familiar with Anaconda
@@ -19,7 +21,9 @@ When you have the Anaconda installed successfully, then you can open your Anacon
 <img src="images/win-terminal.png" title="A cute kitten" height="300" />. 
 
 For Mac, go to the `terminal`, 
+
 <img src="images/mac-terminal.png" title="A cute kitten" height="300" />
+
 2. Type in `conda info -e` in your terminal, you should see the `base` environment. The `base` is the default Python environment. We usually don't install Python modules in the `base`. 
 3. Create a customized virutal environment called `geoviz`, `conda create -n geoviz python=3.8`. You can use other names as you like. Let
 4. Install the required modules. Before you get started to install Python modules, we need to first activate the virtual environment we just created. Just type in `conda activate geoviz` in the terminal.
