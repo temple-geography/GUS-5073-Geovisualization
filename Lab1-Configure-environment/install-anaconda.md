@@ -5,7 +5,10 @@ The Anaconda makes configuring Python programing environment super easy. The Ana
 
 ## 1. Install Anaconda
 1. **Download the Anaconda**. Go to the [website](https://www.anaconda.com/products/individual) to download Anaconda for different OSs. 
-![](images/download-anaconda.png)
+
+<img src="images/download-anaconda.png" alt="Kitten"
+	title="A cute kitten" width="150" height="100" />
+
 Select the right Anaconda for your computer. In this tutorial, we are going to use Python 3.8. 
 ![](images/anaconda-downloaders.png)
 2. **Locate you installer and install**. Locate you downloaded Anaconda installer and then double click it to install. For Windows and MacOS, the installing is the same, just keep following the instructions by default.
@@ -35,7 +38,7 @@ Now we have the required environment ready. Let's start the `Jupyter Notebook` a
 2. Start the Jupyter Notebook by typing `jupyter notebook` in the terminal. Then you web browser will start automatically and guide you to the notebook. You can then write Python code over there. 
 
 ## What Next
-Go to open the test Jupyter Notebook file, [Link](PythonBasic.ipynb). You can open the `ipynb` file directly or copy the statment to you newly created notebook. 
+Go to open the test Jupyter Notebook file [link](PythonBasic.ipynb). You can open the `ipynb` file directly or copy the statment to you newly created notebook. 
 
 #### Reference
 1. Jupyter notebook for beginners, https://realpython.com/jupyter-notebook-introduction/
