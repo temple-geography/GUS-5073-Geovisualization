@@ -12,9 +12,9 @@
 ## Lab 2. Creating Basic graphics and create maps with different projections
 
 
-1. Create a simple graph and first geoviz using Python ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture3-catography-nutshell_2/Projections-manipulation.ipynb))
+1. Create a simple graph and first geoviz using Python ([link](Lab2-CreatingGraphics-maps/Projections-manipulation.ipynb))
 
-2. Create Maps with different projections ([link](hLab2-CreatingGraphics-maps//Projections-manipulation.ipynb))
+2. Create Maps with different projections ([link](Lab2-CreatingGraphics-maps/Projections-manipulation.ipynb))
 
 ## Lab 3. Mapping point maps ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
 1. Read shapefile, do explorative analysis of traffic accidents in Philadelphia
