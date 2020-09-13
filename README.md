@@ -16,9 +16,10 @@
 
 2. Create Maps with different projections ([link](Lab2-CreatingGraphics-maps/Projections-manipulation.ipynb))
 
-## Lab 3. Mapping point maps ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
+## Lab 3. Mapping point maps ([link](Lab3-thematicMapping/VisualizeCarCrashes-class.ipynb))
 1. Read shapefile, do explorative analysis of traffic accidents in Philadelphia
 2. Create point maps of traffic accidents in different years 
+3. Add basemap to the map
 
 ## Lab 4. Data classification, choropleth, Mapping and dasymetric Mapping ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture5-choropleth/ChoroplethMaps-class.ipynb))
 1. Create choropleth map using Geopandas
