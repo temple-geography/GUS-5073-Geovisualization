@@ -21,11 +21,11 @@
 2. Create point maps of traffic accidents in different years 
 3. Add basemap to the map
 
-## Lab 4. Data classification, choropleth, Mapping and dasymetric Mapping ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture5-choropleth/ChoroplethMaps-class.ipynb))
+## Lab 4. Data classification, choropleth, Mapping and dasymetric Mapping ([link](Lab4-choropleth-mapping/ChoroplethMaps-class.ipynb))
 1. Create choropleth map using Geopandas
 2. Select different color bars
 3. Using different classification schemes
-4. Deal with Null data in the choropleth Mapping.
+4. Position legend
 
 ## Lab 5. Colors, create dynamic maps using folium ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture6-Colors-dynamicViz/dynamicViz.ipynb))
 1. Using folium to create a dynamic leaflet style map
