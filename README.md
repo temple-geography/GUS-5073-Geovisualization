@@ -33,7 +33,7 @@
 3. Add line to map using folium
 4. Create choropleth map
 
-## Lab 6. Designing dynamic and interactive maps using Leaflet.js ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture7%20-%20Leaflet/tutorial.md))
+## Lab 6. Designing dynamic and interactive maps using Leaflet.js ([link](Lab6-webMapping-leaflet/README.md))
 1. Write html/css/JavaScript in Sublime
 2. Create Map using Leaflet.js
 3. Add marker, line, polygon to map
