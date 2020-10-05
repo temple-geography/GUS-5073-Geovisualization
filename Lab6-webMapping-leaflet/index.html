@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Leaflet Map</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
+</head>
+<body style="margin: 0pt auto; width: 917px;">
+    <!-- Our web map and content will go here -->
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div id="map" style="width: 1000px; height: 600px">
+    </div>
+    <script>
+
+    	var map = L.map('map', {center: [39.981192, -75.155399], zoom: 10});
+    	L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+    	map.doubleClickZoom.disable();
+
+
+        // Add you code here 
+
+        
+
+    </script>
+</body>
+</html>
