@@ -1,4 +1,4 @@
-# Lecture 6. Introduction of Javascripts/HTML/CSS
+# Lab 6. Introduction of Javascripts/HTML/CSS
 This week we are going to first use Javascripts/HTML/CSS to write our first web-based geovisualization. You will know how to add marker, line, and polygon on map instance using Lealet.js. 
 
 ### HTML/CSS/JavaScript
