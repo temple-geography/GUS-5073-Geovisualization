@@ -33,13 +33,13 @@
 3. Add line to map using folium
 4. Create choropleth map
 
-## Lab 6. Designing dynamic and interactive maps using Leaflet.js ([link](Lab6-webMapping-leaflet/tutorial.md))
+## Lab 6. Designing dynamic and interactive maps using Leaflet.js ([link](Lab6-webMapping-leaflet/Lecture6.tutorial.md))
 1. Write html/css/JavaScript in Sublime
 2. Create Map using Leaflet.js
 3. Add marker, line, polygon to map
 4. Read `geojson` file and map it
 
-## Lab 7. Web Mapping, Creating interactive choropleth map ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture8-Leaflet%20choropleth%20map/lecture8-leafleatChoroplethMapping.md))
+## Lab 7. Web Mapping, Creating interactive choropleth map ([link](Lab7-choropleth-mapping/lecture7-leafleatChoroplethMapping.md))
 1. Load GeoJson file in Leaflet
 2. Create choropleth map based on the GeoJson file
 3. Create interaction for each feature in the GeoJson file

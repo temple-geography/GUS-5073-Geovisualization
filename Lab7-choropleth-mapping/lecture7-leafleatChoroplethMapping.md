@@ -1,4 +1,4 @@
-# Week 8. Introduction of Choropleth Mapping in JavaScript
+# Lecture 7. Introduction of Choropleth Mapping in JavaScript
 This week we are going to learn how to use Leaflet to create dynamic choropleth map. We will also add different map elements to the map. Those elements include Map, title, legend, data source, scale, etc. We will also add interactions to the choropleth map. 
 
 ### 1. Introduction of HTML/JavaScript/CSS
