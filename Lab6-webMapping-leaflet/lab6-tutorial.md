@@ -151,7 +151,7 @@ map.on('click', onMapClick);
 #### 8. Read the geojson file of blood lead and map
 In all the previous steps, we add point, line, and polygon to the map. In many cases, we need to add an external file, like geojson file to our webpage. Therefore, we can using the following code read geojson file and add features to our map. 
 
-In order to access the geojson file, you need to using a little different way to open your `html` file. Please go to your Anaconda prompt. Then `cd` to your working directory, and type in `python -m http.server`. Then go to your web browser and type in `localhost:8000`. 
+In order to access the geojson file, you need to using a little different way to open your `html` file. Please go to your Anaconda prompt. Then `cd` to your working directory, and type in `python -m http.server`. Then go to your web browser and type in `localhost:8000`. Make sure your geojson file in the same directory with your `html` file
 
 ```js
 // load GeoJSON from an external file
@@ -164,8 +164,6 @@ $.getJSON("blood_lead.geojson",function(data){
     }).addTo(map);
 });
 ```
-
-**If you have difficulty in reading the geojson file**, you can run a localhost to serve your webpage. You can simplely typein `python -m http.server` in your Anaconda prompt, and then open your web browser and typein `localhost:8000`. Make sure your geojson file in the same directory with your `html` file
 
 
 ## Homework

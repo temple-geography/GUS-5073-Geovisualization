@@ -8,13 +8,14 @@ Most websites are based on three core technologies: HTML, CSS, and JavaScript. H
 
 This week we are going to create dynamic geoviz with interactions.
 - Load GeoJson file in Leaflet
-- reate choropleth map based on the GeoJson file
+- Create choropleth map based on the GeoJson file
 - Create interaction for each feature in the GeoJson file
 - Add Legend for the map
 - Add other map elements, scale, data sources, map title, etc. 
 
 ### 2. Load geojson file and create choropleth map
-Last week we talked about creating markers, lines, polygons to the map instance using Leaflet.js. This week let's load `geojson` file and create choropleth map using leaflet. Our previous code looks like this, 
+Last week we talked about creating markers, lines, polygons to the map instance using Leaflet.js. This week let's load `geojson` file and create choropleth map using leaflet. Please copy the following code to your text editor and save as HTML file.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -23,19 +24,6 @@ Last week we talked about creating markers, lines, polygons to the map instance 
     <title>Leaflet Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
     <style>
-        html { height:100%;}
-        body {
-            height:100%;
-            padding: 0;
-            margin: 0;
-        }
-
-        #map {
-            width: 100%;
-            margin: 0 auto;
-            height: 95%;
-        }
-
 
 
 
@@ -107,10 +95,15 @@ Last week we talked about creating markers, lines, polygons to the map instance 
                 
             }).addTo(map);
         });
+
+
     </script>
 </body>
 </html>
 ```
+
+Read the above code carefully based on what your learned in the Lab 6. Then you can open the `html` file in your web-browser and see your created map. 
+
 **Note**
 In the code above, we actually load a geojson file and plot the polygons of each census tract to the map. If you just use your web browser to open the file, you are NOT going to load the geojson file. You can right click your web page and click `inspect`, there will be a error says that "you cannot load the geojson file". We talked about that last week, you need to use `localhost` to open it. So, just go back to your Anaconda Prompt and then activate your virtual environment, type "python -m http.server". You can then type "localhost:8000" in your web browser and find your `.html` file and open it. Make sure your have the "data" folder that includes `geojson` in the same directory with your `.html` file. 
 
@@ -134,6 +127,7 @@ We just load the GeoJson file using the function of `$.getJSON`. We actually jus
         height: 95%;
     }
 ```
+The `css` code helps to sytle your map, central position, with a height of 95% of your screen. 
 
 
 #### Assign different colors to different census tracts based on their data
