@@ -1,68 +1,65 @@
 # GUS-5073-Geovisualization
-## Lecture 1. The introduction of Geovisualization
-Introduction of myself, 
-My background and research
-The introduction of the course and syllabus
 
-## Lecture 2. Configure the environment of anaconda environment for Python
+## Lab 1. Configure the environment of anaconda environment for Python
 
-1. Install Anaconda ([Link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/AnacondaConfig.pdf)) 
+1. Install Anaconda ([Link](Lab1-Configure-environment/install-anaconda.md)) 
 
-2. Be familar with Jupyter Notebook ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/Notebook-tutorial.md))
+2. Be familar with Jupyter Notebook ([link](Lab1-Configure-environment/jupyter-notebook.md))
 
-3. Basics of Python programing ([Link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture2-catography-nutshell_1/PythonBasic.ipynb))
+3. Basics of Python programing ([Link](Lab1-Configure-environment/PythonBasic.ipynb))
 
 
-## Lecture3. Creating Basic graphics and create maps with different projections
+## Lab 2. Creating Basic graphics and create maps with different projections
 
 
-1. Create a simple graph and first geoviz using Python ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture3-catography-nutshell_2/Projections-manipulation.ipynb))
+1. Create a simple graph and first geoviz using Python ([link](Lab2-CreatingGraphics-maps/Projections-manipulation.ipynb))
 
-2. Create Maps with different projections ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture3-catography-nutshell_2/Projections-manipulation.ipynb))
+2. Create Maps with different projections ([link](Lab2-CreatingGraphics-maps/Projections-manipulation.ipynb))
 
-## Lecture 4. Mapping point maps ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture4-pointMapping/VisualizeCarCrashes-class.ipynb))
+## Lab 3. Mapping point maps ([link](Lab3-thematicMapping/VisualizeCarCrashes-class.ipynb))
 1. Read shapefile, do explorative analysis of traffic accidents in Philadelphia
 2. Create point maps of traffic accidents in different years 
+3. Add basemap to the map
 
-## Lecture 5. Data classification, choropleth, Mapping and dasymetric Mapping ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture5-choropleth/ChoroplethMaps-class.ipynb))
+## Lab 4. Data classification, choropleth, Mapping and dasymetric Mapping ([link](Lab4-choropleth-mapping/ChoroplethMaps-class.ipynb))
 1. Create choropleth map using Geopandas
 2. Select different color bars
 3. Using different classification schemes
-4. Deal with Null data in the choropleth Mapping.
+4. Position legend
 
-## Lecture 6. Colors, create dynamic maps using folium ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture6-Colors-dynamicViz/dynamicViz.ipynb))
+## Lab 5. Colors, create dynamic maps using folium ([link](Lab5-dynamic-viz/dynamicViz.ipynb))
 1. Using folium to create a dynamic leaflet style map
 2. Add markers to map using folium
 3. Add line to map using folium
 4. Create choropleth map
 
-## Lecture 7. Designing Beautiful Maps, Introduction of Leaflet.js ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture7%20-%20Leaflet/tutorial.md))
+## Lab 6. Designing dynamic and interactive maps using Leaflet.js ([link](Lab6-webMapping-leaflet/lab6-tutorial.md))
 1. Write html/css/JavaScript in Sublime
 2. Create Map using Leaflet.js
 3. Add marker, line, polygon to map
 4. Read `geojson` file and map it
 
-## Lecture 8. Web Mapping, Creating interactive choropleth map ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture8-Leaflet%20choropleth%20map/lecture8-leafleatChoroplethMapping.md))
+## Lab 7. Web Mapping, Creating interactive choropleth map ([link](Lab7-choropleth-mapping/lab7-leafleatChoroplethMapping.md))
 1. Load GeoJson file in Leaflet
 2. Create choropleth map based on the GeoJson file
 3. Create interaction for each feature in the GeoJson file
 4. Add Legend for the map
 5. Add other map elements, scale, data sources, map title, etc.
 
-## Lecture 9. Web Geoviz hosting on Github (I) ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture9-Host-webpage-1/lecture9-webpage-host.md))
+## Lab 8. Web Geoviz hosting on Github (I) ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture9-Host-webpage-1/lecture9-webpage-host.md))
 Continue of the lab part for lecture 8
 1. Register an Github page
 2. Install Git and Github desktop (for Windows user)
 3. Create Repository and understand `clone`, `fork`
 
-## Lecture 10. Web Geoviz hosting on Github (II) ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture10-Host-webpage-2/tutorial.md))
+## Lab 9. Web Geoviz hosting on Github (II) ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture10-Host-webpage-2/tutorial.md))
 
 1. Navigation using Git bash
 2. Clone, Add, commit using command line
 3. Synchronize files between local computer and Github repository
 4. Check your Web Geoviz on Github page.
 
-## Lecture 11. Explorative Analysis ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture11-visual-analytics/ExploratoryAnalytics-class.ipynb))
+## Lab 10. Explorative Analysis ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture11-visual-analytics/ExploratoryAnalytics-class.ipynb))
 1. Calculate the statistics of your data
 2. Plot histogram, boxplot, scatter plot.
 3. Calculate correlation, spatial autocorrelation.
