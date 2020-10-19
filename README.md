@@ -46,18 +46,13 @@
 4. Add Legend for the map
 5. Add other map elements, scale, data sources, map title, etc.
 
-## Lab 8. Web Geoviz hosting on Github (I) ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture9-Host-webpage-1/lecture9-webpage-host.md))
+## Lab 8. Web Geoviz hosting on Github ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture9-Host-webpage-1/lecture9-webpage-host.md))
 Continue of the lab part for lecture 8
-1. Register an Github page
-2. Install Git and Github desktop (for Windows user)
-3. Create Repository and understand `clone`, `fork`
-
-## Lab 9. Web Geoviz hosting on Github (II) ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture10-Host-webpage-2/tutorial.md))
-
-1. Navigation using Git bash
-2. Clone, Add, commit using command line
-3. Synchronize files between local computer and Github repository
-4. Check your Web Geoviz on Github page.
+1. Install Git and Github desktop (for Windows user)
+2. Create Repository and understand `clone`, `fork`
+3. Clone, Add, commit using command line
+4. Synchronize files between local computer and Github repository
+5. Check your Web Geoviz on Github page.
 
 ## Lab 10. Explorative Analysis ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture11-visual-analytics/ExploratoryAnalytics-class.ipynb))
 1. Calculate the statistics of your data
