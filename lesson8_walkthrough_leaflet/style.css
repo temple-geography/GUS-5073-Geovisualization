@@ -1,0 +1,9 @@
+#mapid {
+    width: 90%;
+    height: 512px;
+    border: 1px solid #ccc;
+}
+
+.leaflet-container {
+    background: #fff;
+}

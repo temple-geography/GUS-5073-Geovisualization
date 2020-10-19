@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <title>Mapping with D3</title> -->
+  <h1>Rodent Incidents in Boston</h1>
+  <h2></h2>
+  <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+  <script src="data/boston_neighborhoods.json"></script>
+  <script src="data/boston_rodents.json"></script>
+
+  <style>
+    body {
+        position: absolute;
+        font-family: "Proxima Nova", "Montserrat", sans-serif;
+    }
+    h1, h2 {
+        position: absolute;
+        left: 10px;
+        font-size: 1.3em;
+        font-weight: 100;
+    }
+    h2 {
+        top: 30px;
+        font-size: 1em;
+    }
+
+    /*.incident {
+        fill: steelblue;
+    }*/
+    .hover {
+        fill: yellow;   
+    }
+
+    #sliderContainer {
+      text-align: center;
+      position: relative;
+      top: 600px;
+    }
+
+  </style>
+
+
+</head>
+<body>
+  <!-- Page elements and content go here. -->
+  <div id="sliderContainer">
+    <input id='timeslide' type="range" min="0" max="11" value="0" step="1"></br>
+    <span id="range">January</span>
+  </div>
+
+
+  <script>
+    // Our D3 code will go here.
+    // Width and Height of the whole visualization
+    var width = 700;
+    var height = 580;
+
+    var inputValue = null;
+    var month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+    // Create SVG
+    var svg = d3.select( "body" )
+        .append( "svg" )
+        .attr( "width", width )
+        .attr( "height", height );
+
+    // Append empty placeholder g element to the SVG
+    // g will contain geometry elements
+    var g = svg.append( "g" );
+    var rodents = svg.append( "g" );
+
+    // Width and Height of the whole visualization
+    // Set Projection Parameters
+    var albersProjection = d3.geoAlbers()
+        .scale( 190000 )
+        .rotate( [71.057,0] )
+        .center( [0.0, 42.313] )
+        .translate( [width/2,height/2] );
+
+
+    var geoPath = d3.geoPath()
+        .projection( albersProjection );
+
+    // Classic D3... Select non-existent elements, bind the data, append the elements, and apply attributes
+    g.selectAll( "path" )
+        .data( neighborhoods_json.features )
+        .enter()
+        .append( "path" )
+        .attr( "fill", "#ccc" )
+        .attr( "stroke", "#333")
+        .attr( "d", geoPath );
+
+
+    rodents.selectAll( "path" )
+      .data( rodents_json.features )
+      .enter()
+      .append( "path" )
+      .attr( "fill", "#900" )
+      .attr( "stroke", "#999" )
+      .attr( "d", geoPath )
+      .attr("fill", initialDate)
+      .attr( "class", "incident")
+      .on("mouseover", function(d){
+        d3.select("h2").text(d.properties.LOCATION_STREET_NAME);
+        d3.select(this).attr("class","incident hover");
+      })
+      .on("mouseout", function(d){
+        d3.select("h2").text("");
+        d3.select(this).attr("class","incident");
+      });
+
+
+      d3.select("#timeslide").on("input", function(){
+        update(this.value);
+
+      });
+
+      function update(value){
+        document.getElementById("range").innerHTML=month[value];
+        inputValue = month[value];
+        // console.log(inputValue);
+        
+        d3.selectAll(".incident")
+          .attr("fill", dateMatch);
+      };
+
+      function dateMatch(data, value){
+        var d = new Date(data.properties.OPEN_DT);
+        var m = month[d.getMonth()];
+        // console.log(m);
+
+        if (inputValue == m) {
+            this.parentElement.appendChild(this);
+            return "red";
+        } else {
+            return "#999";
+        };
+      }
+
+      function initialDate(d,i){
+          var d = new Date(d.properties.OPEN_DT);
+          var m = month[d.getMonth()];
+          if (m == "January") {
+              this.parentElement.appendChild(this);
+              return "red";
+          } else {
+              return "#999";
+          };
+      };
+
+
+  </script> 
+</body>
+
+</html>

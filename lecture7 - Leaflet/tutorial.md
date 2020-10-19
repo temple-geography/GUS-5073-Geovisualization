@@ -6,7 +6,7 @@ This week we are going to first use Javascripts/HTML/CSS to write our first web-
 Most websites are based on three core technologies: HTML, CSS, and JavaScript. HTML stands for HyperText Markup Language; it is the lingua franca of web documents. It allows you to write structured content in a way that web browsers will understand. CSS stands for Cascading Style Sheet and provides a means to style a website using structure written into the document using HTML. Javascript is the web's preferred programming language and is supported by all browsers without additional plugins. We'll be using it to build interactive visualizations and web pages. JavaScript is extended by a huge number of libraries; we'll be doing our data visualization work in Leaflet.js, Mapbox.js, etc.
 
 
-### 1. First black web page
+### 1. First blank web page
 ```html
 <!DOCTYPE html>
 <html>
@@ -96,8 +96,11 @@ myDataPoint.bindPopup("This is Temple University.");
 myDataPoint.bindPopup("<h3>Temple University</h3><p>Philadelphia, PA<br>Information about Temple University.</p>");
 ```
 
+The above statement will add a marker, add to the map instance, and add a popup. 
+
 #### 5. Add a line to the map instance
 
+You can also add a line to the map instance. This is also very similar. 
 ```js
 // create a polyline
 var myDataLine = L.polyline([[40.080922, -75.207875], 

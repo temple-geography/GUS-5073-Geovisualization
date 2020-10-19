@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Leaflet Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
+    <style>
+        html { height:100%;}
+        body {
+            height:100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map {
+            width: 100%;
+            margin: 0 auto;
+            height: 95%;
+        }
+
+        .info {
+            z-index: 1000;
+            position: absolute;
+            right: 40%;
+            top: 5%;
+            padding: 6px 8px;
+            font: 14px Arial, Helvetica, sans-serif;
+            text-align: center;
+            background: white;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        .info h1 {
+            font-size: 16px;
+            margin: 0 0 5px;
+            color: #777777;
+        }
+
+
+        .legend {
+            line-height: 18px;
+            color: #333333;
+            font-family: 'Open Sans', Helvetica, sans-serif;
+            padding: 6px 8px;
+            background: white;
+            background: rgba(255,255,255,0.8);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+
+        .legend i {
+            width: 28px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.7;
+        }
+
+
+        .legend p {
+            font-size: 12px;
+            line-height: 18px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Our web map and content will go here -->
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div id="map" style="width: 1000px; height: 600px">
+    </div>
+    <script>
+        var map = L.map('map', {center: [39.981192, -75.155399], zoom: 10});
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+        map.doubleClickZoom.disable();
+
+        // add point marker
+       var myDataPoint = L.marker([40.041761, -75.135124]).addTo(map);
+        myDataPoint.bindPopup("Fern Rock Station");
+        myDataPoint.bindPopup("<h3>Fern Rock Transportation Center Station</h3><p>Philadelphia, PA<br>Broad Ridge Spur: Fern Rock Transportation Center Station.</p>");
+
+        var myDataPoint2 = L.marker([39.950876, -75.153534]).addTo(map);
+        myDataPoint2.bindPopup("8th & Market St. Station");
+        myDataPoint2.bindPopup("<h3>8th & Market St. Station</h3><p>Philadelphia, PA<br>Broad Ridge Spur: 8th & Market St. Station.</p>");
+
+        //load and add geojson
+        var neighborhoodsLayer = null;
+        $.getJSON("data/blood_lead.geojson",function(data){
+            neighborhoodsLayer = L.geoJson(data, {
+                style: styleFunc,
+                onEachFeature: function onEachFeatureFunc (feature, layer){
+                    layer.on({
+                        mouseover: highlightFeature,
+                        mouseout: resetHighlight,
+                        click: zoomFeature
+                    });
+                    layer.bindPopup('Blood lead level: '+feature.properties.num_bll_5p);
+                }
+            , riseOffset: 20}).addTo(map).bringToBack();
+        });
+
+        // neighborhoodsLayer.setZIndex(99);
+        
+
+        // create a polyline
+        var myDataLine = L.polyline([[40.041897, -75.136838], 
+                [40.039092, -75.144644],
+                [40.009159, -75.151226],
+                [39.994297, -75.154489],
+                [39.971552, -75.159021],
+                [39.966765, -75.160534],
+                [39.955624, -75.153037],
+                [39.950876, -75.153534]
+                ],
+                {smoothFactor: 1, riseOffset: 2000, color: 'orange', weight: 5}).addTo(map);
+
+        // myDataLine.setZIndex(1000);
+        // setTimeout(myDataLine.addTo(map), 5000);
+
+        // Bind popup to line object
+        myDataLine.bindPopup("Broad Ridge Spur Line");
+
+        function highlightFeature(e){
+            var layer = e.target;
+
+            layer.setStyle({
+                weight: 5,
+                color: '#666',
+                dashArray: '',
+                fillOpacity: 0.7
+            });
+            // for different web browsers
+            if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                layer.bringToFront();
+            }
+        }
+
+        function resetHighlight(e) {
+            neighborhoodsLayer.resetStyle(e.target);
+        } 
+
+        function zoomFeature(e){
+            console.log(e.target.getBounds());
+            map.fitBounds(e.target.getBounds().pad(1.5));
+        }
+
+        // Set style function that sets fill color property equal to blood lead
+        function styleFunc(feature) {
+            return {
+                fillColor: setColorFunc(feature.properties.num_bll_5p),
+                fillOpacity: 0.9,
+                weight: 1,
+                opacity: 1,
+                color: '#AAAAAA',
+                dashArray: '3'
+            };
+        }
+
+        // Set function for color ramp, you can use a better palette
+        function setColorFunc(density){
+            return density > 15 ? '#967EA7' :
+                   density > 10 ? '#AB90BF' :
+                   density > 5 ? '#BAA1CC' :
+                   density > 0 ? '#C9B4D8' :
+                                 '#DBC6EA';
+        };
+
+        L.control.scale({position: 'bottomright'}).addTo(map);
+        // create a polygon of Philadelphia metro
+        var myArea = L.polygon([[40.134261, -75.270050],
+                                 [40.138132, -74.888837],
+                                 [39.873212, -74.988837],
+                                 [39.859046, -75.377775]
+                                 ],
+                     {color: 'pink', weight: 1}).addTo(map);
+
+        // Bind popup to area object
+        myArea.bindPopup("Philadelphia metro");
+
+        // Create an Empty Popup
+        var popup = L.popup();
+
+        // Write function to set Properties of the Popup
+        function onMapClick(e) {
+            popup
+                .setLatLng(e.latlng)
+                .setContent("You clicked the map at " + e.latlng.toString())
+                .openOn(map);
+        }
+        
+        // Listen for a click event on the Map element
+        map.on('click', onMapClick);
+
+        //here
+        // Set style function that sets fill color property equal to blood lead
+        function styleFunc(feature) {
+            return {
+                fillColor: setColorFunc(feature.properties.num_bll_5p),
+                fillOpacity: 0.9,
+                weight: 1,
+                opacity: 1,
+                color: '#AAAAAA',
+                dashArray: '3'
+            };
+        }
+
+        // Create Leaflet Control Object for Legend
+        var legend = L.control({position: 'bottomright'});
+
+        // Function that runs when legend is added to map
+        legend.onAdd = function (map) {
+            // Create Div Element and Populate it with HTML
+            var div = L.DomUtil.create('div', 'legend');            
+            div.innerHTML += '<b>Blood lead level</b><br />';
+            div.innerHTML += 'by census tract<br />';
+            div.innerHTML += '<br>';
+            div.innerHTML += '<i style="background: #967EA7"></i><p>15+</p>';
+            div.innerHTML += '<i style="background: #AB90BF"></i><p>10-15</p>';
+            div.innerHTML += '<i style="background: #BAA1CC"></i><p>5-10</p>';
+            div.innerHTML += '<i style="background: #C9B4D8"></i><p>0-5</p>';
+            div.innerHTML += '<hr>';
+            div.innerHTML += '<i style="background: #DBC6EA"></i><p>No Data</p>';
+
+            // Return the Legend div containing the HTML content
+            return div;
+        };
+
+        // Add Legend to Map
+        legend.addTo(map);
+    </script>
+</body>
+</html>
