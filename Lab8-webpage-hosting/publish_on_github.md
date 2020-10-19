@@ -62,36 +62,24 @@ i. Click on the Repositories tab on your main profile page.
 On your Github profile page, click on the Repositories tab.
 
 
-### 4. Clone you new created repo to your local computer
-I prepare a repository on my github account, you can first use my code for this tutorial, but in your homework, you need to use your developed code. 
 
+### 4. Synchronize with your github repository
+In you terminal, navigate to the directory that is storing your javascript files by using the `cd` command, my folder is called `geoviz`, you need to to use your folder name.
 ```
-git clone https://github.com/xiaojianggis/bloodlead.git
+cd geoviz
 ```
-Then you will have a folder of `bloodlead` in your directory. We are going to upload it to github. 
-
--------------------------------------------
-**Note: replace `xiaojianggis` by your github username**
-
-
-
-### 5. Synchronize with your github repository
-change your directory to the new created folder of `bloodlead`.
-```
-cd bloodlead
-```
-Then initiate your folder, 
+Then initiate your folder as a github repository, 
 ```
 git init
 ```
-Copy your code with data to the folder of `geoviz`. **MAKE SURE** your html file is named as `index.html`, or you will not see your webpage.
+**MAKE SURE** your html file is named as `index.html`, or you will not be able to see your webpage.
 
 
 Alright, let start to Synchronize our local folder with Github repository, 
 ```
 git remote add origin https://github.com/xiaojianggis/bloodlead.git
 ```
-You need to replace the last paramter by the link of your repository name. You can find these when your first created the github repository.
+You need to replace the last paramter by the link of your repository name. You can find these when your first created the github repository. This command will link your directory on your local machine with the GitHub repository.  You will see this command on GitHub under how to push an existing repository from the command line.
 
 **Note**: if you get error of "fatal: remote origin already exists." Type the following statement to solve it,
 ```
@@ -101,26 +89,26 @@ git remote add origin https://github.com/xiaojianggis/bloodlead.git
 
 ```
 
-### 6. Check out with a branch
+### 5. Check out with a branch
 Now you need to create a branch called gh-pages from GitHub and switch to this branch. Type in,
 ```
 git checkout -b gh-pages
 ```
 This command with switch to the gh-pages branch in the repository.
 
-### 7. Add and commit your files to your repository
+### 6. Add and commit your files to your repository
 Now just commit everything in the folder to your repository by typing in 
 ```
 git add .
 git commit -m 'my initial commit, just a memo'
 ```
 
-### 8. Finally push your project up to the branch gh-pages by typing in  
+### 7. Finally push your project up to the branch gh-pages by typing in  
 ```
 git push origin gh-pages 
 ```
 
-### 9. Now your project is up on GitHub.  
+### 8. Now your project is up on GitHub.  
 In a web browser log into your GitHub account and view the project in the gh-pages branch.  You can also view the web site using your http://<GitHub handle>.github.io/repository name.  My final website can be viewed at https://xiaojianggis.github.io/bloodlead/
 
 Make sure you replace the `xiaojianggis` by your own user name, and `bloodlead` by your own repository name. 

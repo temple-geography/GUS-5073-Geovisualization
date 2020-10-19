@@ -46,7 +46,7 @@
 4. Add Legend for the map
 5. Add other map elements, scale, data sources, map title, etc.
 
-## Lab 8. Web Geoviz hosting on Github ([link](https://github.com/xiaojianggis/GUS-5073-Geovisualization/blob/master/lecture9-Host-webpage-1/lecture9-webpage-host.md))
+## Lab 8. Web Geoviz hosting on Github ([link](Lab8-webpage-hosting/publish_on_github.md))
 Continue of the lab part for lecture 8
 1. Install Git and Github desktop (for Windows user)
 2. Create Repository and understand `clone`, `fork`
