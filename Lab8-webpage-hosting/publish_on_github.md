@@ -21,9 +21,9 @@ Moving back to our local machine, we need to get git and Github setup so we can 
 
 **If you are using Mac**: Using Terminal, we are going to check for Git, and if it is not found, we will download and install necessary files.
 
-**If you are using Windows**: Git does not work easily from the Windows command prompt. To easily use command line to interact with Github, you need to install Github for desktop where you can use Git Bash. This is a command line interface that allows you to run commands to create repositories, rectify file differences, and push commits.
+**If you are using Windows**: Git does not work easily from the Windows command prompt. To easily use command line to interact with Github, you need to install Git bash for desktop where you can use Git Bash. This is a command line interface that allows you to run commands to create repositories, rectify file differences, and push commits.
 
-[Download Github Desktop](https://desktop.github.com/)
+[Download Github Bash](https://gitforwindows.org/)
 
 Once downloaded, proceed below, but instead of using Terminal, you use Git Bash.
 
