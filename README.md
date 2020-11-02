@@ -58,3 +58,11 @@ Continue of the lab part for lecture 8
 1. Calculate the statistics of your data
 2. Plot histogram, boxplot, scatter plot.
 3. Calculate correlation, spatial autocorrelation.
+
+## Lab 10. Visualize big spatial data ([link](https://gis-jiang.medium.com/map-choropleth-map-of-half-million-building-footprints-using-mapbox-99b378a14226))
+1. Convert shapfile to geojson, mbtiles
+2. Using Mapbox studio to design your map
+3. Using Mapbox GL JS to create web map
+
+
+
