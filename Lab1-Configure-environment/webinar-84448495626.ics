@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Europe/London
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZNAME:BST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:GMT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210824T174936Z
+DTSTART;TZID=Europe/London:20210917T180000
+DTEND;TZID=Europe/London:20210917T193000
+SUMMARY:Cycling for Sustainable Cities – A unique international compariso
+ n
+UID:20210824T174936Z-84448495626@fe80:0:0:0:445:adff:fe5b:a1aaens5
+TZID:Europe/London
+DESCRIPTION:Join from a PC\, Mac\, iPad\, iPhone or Android device:\n    
+ Please click this URL to join. https://us02web.zoom.us/w/84448495626?tk=
+ myu4cdyr4zTPE5jFYFY71gko0IfRQBUCaXThaIsMe7k.DQMAAAATqYXIChZVcldYajBMdlNR
+ R2M0WWFwMUl3dkxBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&uuid=WN_9TM2zIsJQhWxqUWp6
+ L_Onw\n	Description: Presentation by Professors Ralph Buehler and John P
+ ucher and Q&A \n\nThe book Cycling for Sustainable Cities is the referen
+ ce publication on comparative cycling for academics and policy makers ar
+ ound the world. \nThe book’s editors Professors Ralph Buehler and John P
+ ucher will summarise the key findings assembled by 45 leading academics 
+ from across the globe and discuss recent developments in the light of th
+ e Covid pandemic.  \n\nData on international cycle use and cycle collisi
+ ons is a key element of the book. For example\,  the proportion of cycli
+ ng to work trips is an exceptional 43% in Xuzhou\, China (population 8.7
+ m) and 23% in Kolkata\, India (pop 14.1m). Perhaps the most concerning d
+ ata is from one of the richest nations on earth\, the USA\, which has th
+ e lowest cycling rates of developed Western nations (0.6% of trips v 28%
+  in the Netherlands) yet the highest rate of fatal collisions for cyclis
+ ts (5.5 per 100m kms cycled v less than one in the Netherlands).  \n\nTh
+ e book’s chapter on New York\, London and Paris\, written by the webinar
+  presenters\, shows London\, pre-Covid\,  scored bottom of the three for
+  protected lanes but  top for off-road paths and advocacy organisations 
+ .\n\nRalph Buehler is Professor and Chair of Urban Affairs and Planning 
+ in the School of Public and International Affairs at Virginia Tech’s Res
+ earch Center in Arlington\, Virginia. \n\nJohn Pucher is Professor Emeri
+ tus in the Urban Planning and Policy Development Program at Rutgers Univ
+ ersity’s Edward J. Bloustein School of Planning and Public Policy. \n\n1
+ 8.00 -19.30 London\; 13.00 – 14.30 NY 19.00 – 20.30 Paris\n\nOr One tap 
+ mobile:\n    +442034815240\,\,84448495626# The United Kingdom\n    +4420
+ 39017895\,\,84448495626# The United Kingdom\n\nOr join by phone:\n    Di
+ al(for higher quality\, dial a number based on your current location):\n
+         The United Kingdom: +44 203 481 5240  or +44 203 901 7895  or +4
+ 4 208 080 6591  or +44 208 080 6592  or +44 330 088 5830  or +44 131 460
+  1196  or +44 203 481 5237 \n        US: +1 301 715 8592  or +1 312 626 
+ 6799  or +1 646 558 8656  or +1 253 215 8782  or +1 346 248 7799  or +1 
+ 669 900 9128 \n    Webinar ID: 844 4849 5626\n    International numbers 
+ available: https://us02web.zoom.us/u/kcbDRg4l4F\n\n
+LOCATION:https://us02web.zoom.us/w/84448495626?tk=myu4cdyr4zTPE5jFYFY71gk
+ o0IfRQBUCaXThaIsMe7k.DQMAAAATqYXIChZVcldYajBMdlNRR2M0WWFwMUl3dkxBAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAA&uuid=WN_9TM2zIsJQhWxqUWp6L_Onw
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
