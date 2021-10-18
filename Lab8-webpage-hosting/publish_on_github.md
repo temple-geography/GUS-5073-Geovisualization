@@ -170,7 +170,7 @@ git commit -m 'my initial commit, just a memo'
 git push origin gh-pages 
 ```
 
-If you are asked to provide the user name and password (token), you can setup your token in the link ([here] (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)).
+If you are asked to provide the user name and password (token), you can setup your token in the link ([here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)).
 
 ### 8. Now your project is up on GitHub.  
 In a web browser log into your GitHub account and view the project in the gh-pages branch.  You can also view the web site using your http://<GitHub handle>.github.io/repository name.  My final website can be viewed at https://xiaojianggis.github.io/bloodlead/
