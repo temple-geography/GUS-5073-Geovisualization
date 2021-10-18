@@ -1,4 +1,4 @@
-## Lecture 10. Host and publish your map online
+## Lab 8. Host and publish your map online
 
 This week we are going to talk about using Github and publish your webpage online. We have already created interactive choropleth map using localhost, but our webpage is not publicly accessible yet. After this week, we will be able to publish it through github and every other people can see your geoviz.
 
