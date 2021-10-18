@@ -40,7 +40,7 @@
 4. Read `geojson` file and map it
 
 ## Lab 7. Web Mapping, Creating interactive choropleth map ([link](Lab7-choropleth-mapping/lab7-leafleatChoroplethMapping.md))
-1. Load GeoJson file in Leaflet
+1. Load `geojson` file in Leaflet
 2. Create choropleth map based on the GeoJson file
 3. Create interaction for each feature in the GeoJson file
 4. Add Legend for the map
