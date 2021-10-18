@@ -21,6 +21,11 @@ Add the following script right behild your `L.map('map',..` statement in your pr
             
         var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox/light-v9', tileSize: 512, zoomOffset: -1, attribution: mbAttr}),
             streets  = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
+            
+ var baseMaps = {
+    "grayscale": grayscale,
+    "streets": streets
+};
 ```
 These statement just define two basemap layers, which we are going to add to our map.
 
