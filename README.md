@@ -66,9 +66,9 @@ Continue of the lab part for lecture 8
 	- Create Choropleth Map
 
 2. Map half million building blocks in Philadelphia.([link](https://gis-jiang.medium.com/map-choropleth-map-of-half-million-building-footprints-using-mapbox-99b378a14226))
- - Convert shapfile to geojson, mbtiles
- - Using Mapbox studio to design your map
- - Using Mapbox GL JS to create web map
+	 - Convert shapfile to geojson, mbtiles
+	 - Using Mapbox studio to design your map
+	 - Using Mapbox GL JS to create web map
 
 
 
