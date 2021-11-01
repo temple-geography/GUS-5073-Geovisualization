@@ -59,10 +59,16 @@ Continue of the lab part for lecture 8
 2. Plot histogram, boxplot, scatter plot.
 3. Calculate correlation, spatial autocorrelation.
 
-## Lab 10. Visualize big spatial data ([link](https://gis-jiang.medium.com/map-choropleth-map-of-half-million-building-footprints-using-mapbox-99b378a14226))
-1. Convert shapfile to geojson, mbtiles
-2. Using Mapbox studio to design your map
-3. Using Mapbox GL JS to create web map
+## Lab 10. Visualize big spatial data 
+1. Be familar with MapBox ([link](lab10-mapbox-js-examples/Mapbox-javascript-examples.md))
+	- Display map using MapBox JS
+	- Load GeoJson
+	- Create Choropleth Map
+
+2. Map half million building blocks in Philadelphia.([link](https://gis-jiang.medium.com/map-choropleth-map-of-half-million-building-footprints-using-mapbox-99b378a14226))
+ - Convert shapfile to geojson, mbtiles
+ - Using Mapbox studio to design your map
+ - Using Mapbox GL JS to create web map
 
 
 
