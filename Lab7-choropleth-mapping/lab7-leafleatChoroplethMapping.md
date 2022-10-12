@@ -348,10 +348,10 @@ You can just create new folders of JS, CSS, or even folders for other documents 
 
 
 ## Homework 
-1. Finish the tutorial and create a interactive and dynamic geoviz. 
+1. Finish the tutorial and create an interactive and dynamic geoviz. 
 
-2. Using a the field of "num_bll_5p", different color scheme, and different scale of legend
+2. Using the field of "num_bll_5p", a different color scheme, and a different scale of legend
 
-3. Upload your `.html` file to the Canvas. 
+3. Upload your `.html` file to Canvas. 
 
 
