@@ -46,18 +46,18 @@
 4. Add Legend for the map
 5. Add other map elements, scale, data sources, map title, etc.
 
-## Lab 8. Web Geoviz hosting on Github ([link](Lab8-webpage-hosting/publish_on_github.md))
+## Lab 8. Explorative Analysis ([link](Lab8-Explorative-Analysis/ExploratoryAnalytics-class.ipynb))
+1. Calculate the statistics of your data
+2. Plot histogram, boxplot, scatter plot.
+3. Calculate correlation, spatial autocorrelation.
+
+## Lab 9. Web Geoviz hosting on Github ([link](Lab9-webpage-hosting/publish_on_github.md))
 Continue of the lab part for lecture 8
 1. Install Git and Github desktop (for Windows user)
 2. Create Repository and understand `clone`, `fork`
 3. Clone, Add, commit using command line
 4. Synchronize files between local computer and Github repository
 5. Check your Web Geoviz on Github page.
-
-## Lab 9. Explorative Analysis ([link](Lab9-Explorative-Analysis/ExploratoryAnalytics-class.ipynb))
-1. Calculate the statistics of your data
-2. Plot histogram, boxplot, scatter plot.
-3. Calculate correlation, spatial autocorrelation.
 
 ## Lab 10. Visualize big spatial data 
 1. Be familar with MapBox ([link](lab10-mapbox-js-examples/Mapbox-javascript-examples.md))
